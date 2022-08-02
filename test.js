@@ -1,9 +1,7 @@
 const myAge = 19;
 
-if (myAge > 30) {
-    document.write('You are over 30!');
-} else if (myAge >= 20) {
-    document.write('You are ober 20!');
+if (myAge > 20 || myAge < 30) {
+    document.write('You are not young and either not old dude');
 } else {
-    document.write('You are below 20!')
+    document.write('Your age is wrong mate.');
 }
