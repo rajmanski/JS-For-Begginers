@@ -1,10 +1,7 @@
-// While loops
+// For loops
 
-let age = 5;
-
-while (age < 10) {
+for (let age = 1; age < 10; age++) {
     console.log('You age is less than 10.');
-    age++;
 }
 
 document.write('You are know over 10!');
