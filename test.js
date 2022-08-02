@@ -1,10 +1,7 @@
-//Boolians -> True or False?
+const youLikeMeat = false;
 
-const a = 7 > 5;
-console.log(a);
-
-console.log(7 == 5);
-
-console.log(Boolean(6));
-console.log(Boolean(0));
-console.log(Boolean(-6));
+if (youLikeMeat) {
+    document.write('Here is a meat menu....');
+} else {
+    document.write('You dont like meat so here is a vegan menu....');
+}
