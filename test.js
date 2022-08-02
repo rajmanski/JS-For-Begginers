@@ -1,7 +1,10 @@
-const myAge = 19;
+// While loops
 
-if (myAge > 20 || myAge < 30) {
-    document.write('You are not young and either not old dude');
-} else {
-    document.write('Your age is wrong mate.');
+let age = 5;
+
+while (age < 10) {
+    console.log('You age is less than 10.');
+    age++;
 }
+
+document.write('You are know over 10!');
