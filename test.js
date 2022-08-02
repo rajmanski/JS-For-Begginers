@@ -1,9 +1,7 @@
-alert('Hello World!');
+var  myVariable = 10;
+console.log(myVariable);
 
-//This is a comment...
-alert('Hello Pjoter')
+myVariable = 'Eloooooo';
+console.log(myVariable);
 
-//To comment a few lines:
-/*
-alert('Witaj świecie!');
-*/
+var myVar = 40;
