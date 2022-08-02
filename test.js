@@ -1,7 +1,12 @@
-// For loops
+for (i = 0; i < 10; i++) {
+    
+    if (i === 3 || i === 5) {
+        continue;
+    }
 
-for (let age = 1; age < 10; age++) {
-    console.log('You age is less than 10.');
+    console.log(i);
+
+    if (i == 7) {
+        break;
+    }
 }
-
-document.write('You are know over 10!');
