@@ -1,7 +1,10 @@
-var  myVariable = 10;
-console.log(myVariable);
+//Boolians -> True or False?
 
-myVariable = 'Eloooooo';
-console.log(myVariable);
+const a = 7 > 5;
+console.log(a);
 
-var myVar = 40;
+console.log(7 == 5);
+
+console.log(Boolean(6));
+console.log(Boolean(0));
+console.log(Boolean(-6));
