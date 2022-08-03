@@ -1,12 +1,7 @@
-for (i = 0; i < 10; i++) {
-    
-    if (i === 3 || i === 5) {
-        continue;
-    }
+//functions
 
-    console.log(i);
-
-    if (i == 7) {
-        break;
-    }
+function getAverage(a, b) {
+    return (a + b) / 2;
 }
+
+console.log(getAverage(2,3));
