@@ -1,5 +1,8 @@
-const a = 5;
+const a = 'asdasdasd';
 const b = 5;
-console.log(a + b);
 
-console.log(Math.round(7.516));
+if (!isNaN(a)) {
+    console.log('Not a numer!');
+} else {
+    console.log('This is a numer!');
+}
