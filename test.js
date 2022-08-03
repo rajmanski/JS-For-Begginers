@@ -1,11 +1,18 @@
-//Arrays
+//Objects
 
-const array = [1, 2, '23,', 'Andrzej'];
-array[2] = '44';
-console.log(array[2]);
-array.push('Piotrek');
-console.log(array);
+const myArray = new Array();
+myArray[0] = 'Lalala';
 
-//Array Mrhods:
+const myCar = new Object();
+myCar.maxSpeed = 50;
+myCar.driver = 'Piotrek';
 
-console.log(array.length);
+console.log(myCar.driver);
+
+const myCar2 = {
+    maxSpeed: 50,
+    driver: 'Andrzej',
+
+}
+
+console.log(myCar2.maxSpeed);
