@@ -1,8 +1,9 @@
-const a = 'asdasdasd';
-const b = 5;
+//string
+const myString = 'I\'m a string. ninja';
+console.log(myString);
 
-if (!isNaN(a)) {
-    console.log('Not a numer!');
+if (myString.indexOf('ninja' === - 1)) {
+    console.log('thr wordl ninja is not there');
 } else {
-    console.log('This is a numer!');
+    console.log('It is there!');
 }
