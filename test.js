@@ -1,12 +1,5 @@
-//variable scope
+const a = 5;
+const b = 5;
+console.log(a + b);
 
-//Global Variable
-const foo = 20;
-
-//Local Variable
-function sum (a, b) {
-    return a + b;
-}
-
-const suma = sum(2,2);
-console.log(suma);
+console.log(Math.round(7.516));
