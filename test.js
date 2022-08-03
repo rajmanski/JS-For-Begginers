@@ -1,6 +1,11 @@
-//spliting and slicing string
+//Arrays
 
-const myString = 'I am a very ver yshort string, nice to see you!';
+const array = [1, 2, '23,', 'Andrzej'];
+array[2] = '44';
+console.log(array[2]);
+array.push('Piotrek');
+console.log(array);
 
-console.log(myString.slice(5, 11));
-console.log(myString.split(' '));
+//Array Mrhods:
+
+console.log(array.length);
