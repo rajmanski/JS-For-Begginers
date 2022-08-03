@@ -1,4 +1,4 @@
-const myCar2 = {
+const myCar = {
     maxSpeed: 50,
     driver: 'Andrzej',
     drive: function (speed, time) {
@@ -9,5 +9,10 @@ const myCar2 = {
     },
 };
 
-console.log(myCar2.drive(50, 3));
-myCar2.logDriver();
+const Car = function (maxSpeed, driver) {
+    this.maxSpeed = maxSpeed;
+    this.driver = driver;
+    
+};
+
+
